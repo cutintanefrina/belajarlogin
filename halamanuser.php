@@ -32,7 +32,7 @@
 </style>
 <body>
     <h1>Welcome to dashboard User</h1>
-    <img src="user.png" alt="">
+    <img src="img/user.png" alt="">
     <a href="logout.php">logout</a>
 </body>
 </html>

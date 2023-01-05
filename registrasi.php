@@ -111,7 +111,7 @@ if (isset($_POST['tambah'])){
                 
                 <div class="hero">
                     <div class="head">
-                        <img src="head.png" alt="">
+                        <img src="img/head.png" alt="">
                     </div>
 
                     <h1>Registrasi</h1>

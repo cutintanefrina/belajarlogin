@@ -94,7 +94,7 @@ if(isset($_GET['pesan'])){
         </div>
 
         <div class="gambar">
-            <img src="human.png" alt="">
+            <img src="img/human.png" alt="">
             
             <div class="formlogin">
                 <form action="ceklogin.php" method = "post">

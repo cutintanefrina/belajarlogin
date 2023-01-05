@@ -11,28 +11,57 @@
         margin: 0;
         padding: 0;
     }
-    h1{
+    .container{
         width: 1200px;
+        margin: auto;
+    }
+
+    h1{
         height: 40px;
         text-align: center;
-        margin-left: 150px;
-        margin-bottom: 20px;
-        font-size: 35px;
-    }
-
-    img{
-        height: 300px;
-        width: 300px;
-        margin-left: 150px;
-    }
-
-    a{
         font-size: 30px;
+        background: purple;
+        color: white;
     }
+
+    .sidebar{
+        width: 200px;
+        background: lightgrey;
+        padding-left: 50px;
+        height: 600px;
+    }
+
+    h2{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    li{
+        font-size: 20px;
+        list-style: none;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+
+
+    
 </style>
 <body>
-    <h1>Welcome to dashboard Admin </h1>
-    <img src="admin.jpg" alt="">
-    <a href="logout.php">logout</a>
+    <div class="container">
+        <div class="navbar">
+            <h1>Page Admin</h1>
+        </div>
+        <div class="sidebar">
+            <h2>Berita Coding</h2>
+            <ul>
+                <li>Overview</li>
+                <li>Post</li>
+                <li>Feedback</li>
+                <li>Setting</li>
+                <a href="logout.php"><li>logout</li></a>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
